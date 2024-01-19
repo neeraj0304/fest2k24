@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+}
+#main {
+  padding: 20px;
+  
+  height: auto;
+  background: linear-gradient(50deg, #ff5050, #66b3ff);
+}
+
+#main #heading h1 {
+ 
+  text-align: center;
+  font-size: 5vw;
+  text-shadow: 5px 5px 5 black;
+}
+#image {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+#image img{
+  width: 40vw;
+  height: 40vh;
+}
