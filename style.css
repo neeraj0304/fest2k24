@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 html,
@@ -80,6 +87,7 @@ body {
 }
 
 #options ul li a {
+  font-family: 'Roboto Slab', serif;
   text-decoration: none;
   color: black;
   font-size: 1.775vw;
@@ -95,6 +103,8 @@ body {
   padding: 20px;
 }
 #heading h2 {
+  font-family: 'Black Ops One', system-ui,sans-serif;
+
   padding-top: 22vh;
   font-size: 2.6vw;
 }
@@ -116,6 +126,7 @@ body {
 }
 
 #heading h1 {
+  font-family: 'Lemon', sans-serif;
   font-size: 9vw;
   padding-left: 25px;
   color: black;
@@ -138,9 +149,10 @@ body {
 }
 
 .tech {
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 3vw;
   display: inline-block;
-  color: purple;
+  color: brown;
 
   animation: electricGlow 1s infinite alternate;
 }
@@ -210,10 +222,11 @@ body {
 
 #description #aboutheading h3 {
   display: flex;
+  font-family: 'Potta One', system-ui;
   justify-content: center;
   font-weight: bold;
   padding-top: 20px;
-  text-shadow: 5px -2px 7px black;
+
 }
 
 #description #video iframe {
@@ -221,6 +234,7 @@ body {
   padding-top: 20px;
 }
 #description #video #aboutignition p {
+  font-family: 'Poppins', sans-serif;
   padding: 20px 0px;
 }
 
@@ -229,11 +243,12 @@ body {
   overflow-x: hidden;
 }
 #home h2 {
+  font-family: 'Potta One', system-ui;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
   text-align: center;
-  text-shadow: 5px -2px 7px black;
+  
 }
 
 #homeslidertrack {
@@ -262,10 +277,11 @@ body {
 }
 
 #events h2 {
+  font-family: 'Potta One', system-ui;
   text-align: center;
   font-weight: bolder;
   padding: 10px 0px;
-  text-shadow: 5px -2px 7px black;
+  
 }
 .container {
   
@@ -278,6 +294,7 @@ body {
 }
 
 .card-title {
+  font-family: 'Poppins', sans-serif;
   color: #262626;
   font-size: 1.5em;
   line-height: normal;
@@ -286,15 +303,16 @@ body {
 }
 
 .small-desc {
+  padding-bottom:20px ;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5em;
   color: #452c2c;
 }
 
-.small-desc {
+/*.small-desc {
   font-size: 1em;
-}
+}*/
 
 .go-corner {
   display: flex;
@@ -314,7 +332,7 @@ body {
   display: block;
   position: relative;
   max-width: 300px;
-  max-height: 320px;
+  
   background-color: #f2f8f9;
   border-radius: 25px;
   padding: 2em 1.2em;
@@ -333,7 +351,7 @@ body {
   top: -16px;
   right: -16px;
   background: linear-gradient(135deg, #364a60, #384c6c);
-  height: 32px;
+  height: 40px;
   width: 32px;
   border-radius: 32px;
   transform: scale(1);
