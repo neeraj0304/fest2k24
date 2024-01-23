@@ -10,7 +10,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-
 }
 
 html,
@@ -27,13 +26,9 @@ body {
     90deg,
     #bb99ff,
     #99b3ff,
-   
-    
     #66b3ff,
     #a3a3c2,
-   
     #8080ff
-    
   );
   background-size: 300% 300%;
   animation: color 15s ease-in infinite;
@@ -106,33 +101,23 @@ body {
   font-family: "Black Ops One", system-ui, sans-serif;
 
   padding-top: 22vh;
-  font-size: 18px;
+  font-size: 4.5vw;
 }
-
-
 
 #heading h1 {
   font-family: "Lemon", sans-serif;
-  font-size: 30px;
-  
+  font-size: 9vw;
+
   color: black;
   -webkit-text-stroke: 0.1vw white;
 }
 
-
-
-
-
 .tech {
   font-family: "Bebas Neue", sans-serif;
-  font-size:18px;
+  font-size: 4.5vw;
   display: inline-block;
   color: brown;
-
-  
 }
-
-
 
 /*hero ends*/
 
@@ -191,9 +176,9 @@ body {
 }
 
 #homeslidertrackslide img {
-  height: 30vh;
+  height: 50vh;
   border-radius: 50px;
-  width: 45vh;
+  width: 55vh;
   padding: 0px 2vh;
 }
 
