@@ -10,6 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+
 }
 
 html,
@@ -26,18 +27,16 @@ body {
     90deg,
     #bb99ff,
     #99b3ff,
-    #ff66ff,
-    #df9f9f,
+   
+    
     #66b3ff,
     #a3a3c2,
-    #80ff80,
-    #8080ff,
-    #ff80b3,
-    #ffb366,
-    #ff9999
+   
+    #8080ff
+    
   );
   background-size: 300% 300%;
-  animation: color 15s ease-in-out infinite;
+  animation: color 15s ease-in infinite;
 }
 @keyframes color {
   0% {
@@ -101,79 +100,39 @@ body {
 #heading {
   height: 60vh;
   padding: 20px;
+  text-align: center;
 }
 #heading h2 {
   font-family: "Black Ops One", system-ui, sans-serif;
 
   padding-top: 22vh;
-  font-size: 2.6vw;
-}
-.welcome {
-  display: inline-block;
-
-  animation: dissolve 1s;
+  font-size: 18px;
 }
 
-@keyframes dissolve {
-  0%,
-  100% {
-    opacity: 1;
-  }
-  25%,
-  75% {
-    opacity: 0;
-  }
-}
+
 
 #heading h1 {
   font-family: "Lemon", sans-serif;
-  font-size: 9vw;
-  padding-left: 25px;
+  font-size: 30px;
+  
   color: black;
   -webkit-text-stroke: 0.1vw white;
 }
 
-.ignition2k24 {
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(13) alternate infinite;
-}
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 90vw;
-  }
-}
+
+
 
 .tech {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 3vw;
+  font-size:18px;
   display: inline-block;
   color: brown;
 
-  animation: electricGlow 1s infinite alternate;
+  
 }
 
-@keyframes electricGlow {
-  0% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0.8;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  80% {
-    opacity: 0.4;
-  }
-  100% {
-    opacity: 0.2;
-  }
-}
+
 
 /*hero ends*/
 
