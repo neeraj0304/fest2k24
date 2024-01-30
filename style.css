@@ -474,6 +474,8 @@ margin-bottom: 30px;
   padding-top: 20px;
   display: inline-block;
   animation: 10s slide infinite linear;
+  box-shadow: 0px 0px 10px 5px lightgrey;
+    
 }
 
 .logos-slide img {
