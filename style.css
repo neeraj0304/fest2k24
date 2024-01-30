@@ -32,20 +32,8 @@ body {
     #66b3ff,
     #a3a3c2,
     #8080ff
-  )*/ black;
-  background-size: 300% 300%;
-  animation: color 5s ease-in-out infinite;
-}
-@keyframes color {
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
+  )*/#121212;
+ 
 }
 /*hero starts*/
 #hero {
