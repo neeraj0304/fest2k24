@@ -6,3 +6,41 @@
 #main{
     width: 100%;
 }
+#main{
+    width: 100%;
+    padding: 20px;
+    
+}
+#content{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#hod img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#faculty
+{
+text-align: center;
+    padding: 10px;
+    overflow-x: hidden;
+}
+#faculty img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#heading{
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#hero{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
