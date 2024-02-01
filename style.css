@@ -7,6 +7,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Faster+One&family=Frijole&family=Goblin+One&family=Mogra&family=Monoton&family=Philosopher:wght@700&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -57,15 +58,13 @@ body {
   height: 7vh;
   
 }
-#options {
-  padding: 0px 20px;
-  transition: 0.5s;
-}
+
 #options ul {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  padding: 4vh 0vh;
   height: 7vh;
+  background-color: rosybrown;
 }
  
 #options button {
@@ -83,12 +82,12 @@ body {
   font-family: "Roboto Slab", serif;
   text-decoration: none;
   color:white;
-  font-size: 1.977vw;
+  font-size: 1.8vw;
   font-weight: 500;
 }
 #options   button a:hover {
-  background-color:  red;
-  color: white;
+  background-color:  black;
+  color: gold;
   border-radius: 25px;
   
   padding: 5px 10px;
@@ -102,7 +101,7 @@ body {
 #heading h2 {
   font-family: "Black Ops One", system-ui, sans-serif;
 
-  padding-top: 22vh;
+  padding-top: 19vh;
   font-size: 4.5vw;
 }
 #heading video{
@@ -110,49 +109,16 @@ body {
 }
 
 #heading h1 {
-  /*font-family: "Lemon", sans-serif;*/
-  font-family: 'Philosopher', sans-serif;
-  
+  /*font-family: "Lemon", sans-serif;
+  font-family: 'Philosopher', sans-serif;*/
+  font-family: 'Carter One', system-ui;
   font-size: 9vw;
 
   
   -webkit-text-stroke: 0.1vw gold;
-  color: white;
-
- animation: flicker 3s infinite ;
-text-shadow:
- 0px -1px 3px #fff,  /*Innermost layer - intense heat (white) */
- 0px -2px 6px #FF3, /* Second layer - core of flame (yellow) */
- /*0px -6px 12px #F90,  Middle layer - body of flame (orange) */
- 0px -10px 20px #C33; /* Outermost layer - edges of flame (red) */
+  color: #121212;
 }
 
-/* Define the animation named "flicker" */
-@keyframes flicker {
-    /* Initial state of animation */
-    0%, 
-    /* Final state of animation */
-    100% { 
-        text-shadow: 
-            0 -1px 3px #fff, /* Innermost layer - intense heat (white) */
-            0 -2px 6px #FF3, /* Second layer - core of flame (yellow) */
-            /* 0 -6px 12px #F90, Middle layer - body of flame (orange) */
-            0 -10px 20px #C33; /* Outermost layer - edges of flame (red) */
-    }
-    /* Middle state of animation */
-    50% { 
-        text-shadow: 
-            0 -2px 6px #fff, /* Innermost layer - intense heat (white) */
-            0 -4px 12px #FF3, /* Second layer - core of flame (yellow) */
-            /* 0 -8px 16px #F90, Middle layer - body of flame (orange) */
-            0 -12px 24px #C33; /* Outermost layer - edges of flame (red) */
-    }
-}
-
-.fire {
-    /* Apply the "flicker" animation to the .fire class */
-    animation: flicker 2s infinite;
-}
 
 
 
@@ -192,7 +158,10 @@ text-shadow:
   padding: 20px 0px;
 }
 
-
+#description  #aboutignition {
+  display: flex;
+ align-items: center;
+}
  
 
 
@@ -233,12 +202,24 @@ text-shadow:
   position: relative;
   width: 280px;
   height: 300px;
- 
+  
   overflow: hidden;
   border-radius: 20px;
   box-shadow: 0px 0px 10px 5px lightgrey;
 margin-bottom: 30px;
 }
+
+.dummy{
+  position: relative;
+  width: 280px;
+  height: 300px;
+  
+  overflow: hidden;
+  border-radius: 20px;
+  ;
+margin-bottom: 30px;
+}
+
 .temporary_text img {
   height: 300px;
   width: 300px;
@@ -389,14 +370,15 @@ margin-bottom: 30px;
 .logos-slide {
   padding-top: 20px;
   display: inline-block;
-  animation: 10s slide infinite linear;
-  box-shadow: 0px 0px 10px 5px lightgrey;
+  animation: 20s slide infinite linear;
+  /*box-shadow: 0px 0px 10px 5px lightgrey;*/
     
 }
 
 .logos-slide img {
   height: 50px;
   margin: 0 20px;
+  box-shadow: 0px 0px 10px 5px lightgrey;
 }
 
 
@@ -429,7 +411,10 @@ margin-bottom: 30px;
     width: 100%;
     flex-direction: column;
   }
-  
+  #options ul li a {
+    font-size: 2.1124vw;
+  }
+
 }
 
 @media (min-width:1024px){
@@ -441,14 +426,20 @@ margin-bottom: 30px;
   }
   #description #video iframe
   {
-    height: 80vh;
+    height: 50vh;
   }
   #nav #ignitionlogo img {
     height: 10vh;
-    width: 20vw;
+    width: 15vw;
   }
   #nav #anitslogo img {
     height: 10vh;
     
+  }
+}
+
+@media screen and  (min-width: 200px) and (max-width: 768px) {
+   .container .dummy {
+     display: none;
   }
 }
