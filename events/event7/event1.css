@@ -21,8 +21,8 @@ body {
   justify-content: center;
 }
 #image img{
-  height: 230px;
-  width: 200px;
+  height: 48vh;
+  width: 50vh;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
   padding: 20px;
@@ -70,7 +70,7 @@ body {
 
 .card {
   width: 220px;
-  height: 254px;
+  height: 300px;
   background-color: transparent;
   border: none;
   border-radius: 10px;
@@ -98,8 +98,8 @@ body {
 }
 
 .card .img img {
-  width: 70px;
-  height: 70px;
+  width: 150px;
+  height: 150px;
   background: #e8e8e8;
   border-radius: 100%;
   margin: auto;
@@ -144,6 +144,13 @@ padding: 5px;
     width: 450px;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
+    padding: 20px;
+}
+#dynamic{
+  display: grid;
+  
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
     padding: 20px;
 }
 }

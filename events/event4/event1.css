@@ -21,8 +21,8 @@ body {
   justify-content: center;
 }
 #image img{
-  height: 230px;
-  width: 200px;
+  height: 48vh;
+  width: 50vh;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
   padding: 20px;
@@ -101,7 +101,7 @@ body {
   width: 70px;
   height: 70px;
   background: #e8e8e8;
-  border-radius: 100%;
+  border-radius: 15px;
   margin: auto;
   margin-top: 20px;
   display: flex;
@@ -144,6 +144,13 @@ padding: 5px;
     width: 450px;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
+    padding: 20px;
+}
+#dynamic{
+  display: grid;
+  
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
     padding: 20px;
 }
 }
