@@ -449,7 +449,7 @@ margin-bottom: 30px;
      display: none;
   }
 }
-@media screen and  (min-width: 200px) and (max-width:1439px) {
+@media screen and  (min-width: 200px) and (max-width:1438px) {
   .container .dummys {
     display: none;
  }
