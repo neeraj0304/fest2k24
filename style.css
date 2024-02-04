@@ -444,8 +444,13 @@ margin-bottom: 30px;
   }
 }
 
-@media screen and  (min-width: 200px) and (max-width:768px) {
+@media screen and  (min-width: 200px) and (max-width:1024px) {
    .container .dummy {
      display: none;
   }
+}
+@media screen and  (min-width: 200px) and (max-width:1439px) {
+  .container .dummys {
+    display: none;
+ }
 }
