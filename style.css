@@ -6,8 +6,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Faster+One&family=Frijole&family=Goblin+One&family=Mogra&family=Monoton&family=Philosopher:wght@700&family=Rubik+Moonrocks&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Faster+One&family=Frijole&family=Goblin+One&family=Mogra&family=Monoton&family=Philosopher:wght@700&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +33,8 @@ body {
     #66b3ff,
     #a3a3c2,
     #8080ff
-  )*/ #121212;
+  )*/#121212;
+ 
 }
 /*hero starts*/
 #hero {
@@ -55,6 +56,7 @@ body {
 }
 #nav #anitslogo img {
   height: 7vh;
+  
 }
 
 #options ul {
@@ -64,10 +66,11 @@ body {
   height: 7vh;
   background-color: rosybrown;
 }
-
+ 
 #options button {
   background-color: transparent;
   border: none;
+  
 }
 
 #options ul li {
@@ -78,15 +81,15 @@ body {
 #options ul li a {
   font-family: "Roboto Slab", serif;
   text-decoration: none;
-  color: black;
+  color:black;
   font-size: 1.8vw;
   font-weight: 500;
 }
-#options button a:hover {
-  background-color: black;
+#options   button a:hover {
+  background-color:  black;
   color: gold;
   border-radius: 25px;
-
+  
   padding: 5px 10px;
 }
 
@@ -101,19 +104,23 @@ body {
   padding-top: 19vh;
   font-size: 4.5vw;
 }
-#heading video {
-  height: 100px;
+#heading video{
+  height:100px ;
 }
 
 #heading h1 {
   /*font-family: "Lemon", sans-serif;
   font-family: 'Philosopher', sans-serif;*/
-  font-family: "Carter One", system-ui;
+  font-family: 'Carter One', system-ui;
   font-size: 9vw;
 
+  
   -webkit-text-stroke: 0.1vw gold;
   color: #121212;
 }
+
+
+
 
 .tech {
   font-family: "Bebas Neue", sans-serif;
@@ -131,6 +138,7 @@ body {
   padding: 20px;
 }
 
+
 #about #aboutheading h3 {
   display: flex;
   font-family: "Potta One", system-ui;
@@ -141,7 +149,7 @@ body {
   text-shadow: 0px 1px 20px gold;
 }
 
-#description #video img {
+#description #video img{
   height: 50vh;
   width: 100vw;
   padding-top: 20px;
@@ -152,10 +160,14 @@ body {
   padding: 20px 0px;
 }
 
-#description #aboutignition {
+#description  #aboutignition {
   display: flex;
-  align-items: center;
+ align-items: center;
 }
+ 
+
+
+
 
 #events h2 {
   font-family: "Potta One", system-ui;
@@ -163,8 +175,8 @@ body {
   font-weight: bolder;
   padding: 10px 0px;
   color: gold;
-  text-shadow: 0px 1px 20px gold;
-  margin-bottom: 30px;
+      text-shadow: 0px 1px 20px gold;
+      margin-bottom: 30px;
 }
 .container {
   border: 1px black;
@@ -175,6 +187,9 @@ body {
   padding-bottom: 20px;
 }
 
+
+  
+
 .small-desc {
   padding-bottom: 20px;
   font-size: 1em;
@@ -183,57 +198,68 @@ body {
   color: #452c2c;
 }
 
+
+
 .card {
   position: relative;
   width: 280px;
   height: 300px;
-
+  
   overflow: hidden;
   border-radius: 20px;
   box-shadow: 0px 0px 10px 5px lightgrey;
-  margin-bottom: 30px;
+margin-bottom: 30px;
 }
 
-.dummy {
+.dummy{
   position: relative;
   width: 280px;
   height: 300px;
-
+  
   overflow: hidden;
   border-radius: 20px;
-  margin-bottom: 30px;
+  ;
+margin-bottom: 30px;
 }
 
 .temporary_text img {
   height: 300px;
   width: 300px;
+  
+  
 }
 
 .card_title {
   font-weight: bold;
+  
 }
 
 .card_content {
   position: absolute;
   left: 0;
   bottom: 0;
-
+  
+    
   width: 100%;
   padding: 20px;
-  background-color: #c3e6ec9e;
-
+  background-color:  #c3e6ec9e;
+  
+   
   transform: translateY(150px);
-  transition: transform 0.25s;
+  transition: transform .25s;
 }
 
 .card_title {
   color: #131313;
+  
 }
+
+
 
 .card_description {
   font-size: 14px;
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: opacity .5s;
   color: black;
 }
 
@@ -243,7 +269,7 @@ body {
 
 .card:hover .card_description {
   opacity: 1;
-  transition-delay: 0.25s;
+  transition-delay: .25s;
 }
 
 .btn {
@@ -267,6 +293,7 @@ body {
 }
 
 .btn:hover {
+  
   color: white;
 }
 
@@ -279,7 +306,7 @@ body {
   left: -40px;
   transform: skewX(45deg);
   background-color: red;
-
+  
   z-index: -1;
   transition: all 1s;
 }
@@ -288,6 +315,7 @@ body {
   width: 160%;
 }
 .card_content::before {
+  
   width: 100px;
   height: 100px;
   transform: rotate(-175deg);
@@ -304,7 +332,9 @@ body {
   }
 }
 
-#sponsers h2 {
+
+
+#sponsers h2{
   display: flex;
   font-family: "Potta One", system-ui;
   justify-content: center;
@@ -314,6 +344,7 @@ body {
   text-shadow: 0px 1px 20px gold;
   text-align: center;
 }
+
 
 @keyframes slide {
   from {
@@ -329,7 +360,10 @@ body {
   padding: 20px 0;
   white-space: nowrap;
   position: relative;
+  
 }
+
+
 
 .logos-slide:hover .logos-slide {
   animation-play-state: paused;
@@ -340,6 +374,7 @@ body {
   display: inline-block;
   animation: 20s slide infinite linear;
   /*box-shadow: 0px 0px 10px 5px lightgrey;*/
+    
 }
 
 .logos-slide img {
@@ -348,19 +383,33 @@ body {
   box-shadow: 0px 0px 10px 5px lightgrey;
 }
 
-#contact_card {
-  padding: 20px 0px;
+
+#contact_card{
+  padding:20px 0px;
   text-align: center;
 }
+
+
+
+
+
+
+
 
 #footer {
   align-items: center;
   text-align: center;
+
 }
+
 
 #footer #copyright {
   padding: 20px;
+ 
 }
+
+
+
 
 @media only screen and (min-width: 200px) and (max-width: 768px) {
   .container {
@@ -370,16 +419,18 @@ body {
   #options ul li a {
     font-size: 1.739vw;
   }
+
 }
 
-@media (min-width: 1024px) {
-  #description {
+@media (min-width:1024px){
+  #description{
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    
     padding: 20px;
   }
-  #description #video img {
+  #description #video img
+  {
     height: 50vh;
     width: 40vw;
   }
@@ -389,11 +440,12 @@ body {
   }
   #nav #anitslogo img {
     height: 10vh;
+    
   }
 }
 
-@media screen and (min-width: 200px) and (max-width: 768px) {
-  .container .dummy {
-    display: none;
+@media screen and  (min-width: 200px) and (max-width:768px) {
+   .container .dummy {
+     display: none;
   }
 }
