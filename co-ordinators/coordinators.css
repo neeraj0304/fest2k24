@@ -5,6 +5,8 @@
 }
 #main{
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.87);
+    color: whitesmoke;
 }
 #main{
     width: 100%;
@@ -17,8 +19,8 @@
     justify-content: center;
 }
 #hod img{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
 }
 #faculty
@@ -26,10 +28,11 @@
 text-align: center;
     padding: 10px;
     overflow-x: hidden;
+    margin: 10px;
 }
 #faculty img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 

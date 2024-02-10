@@ -11,7 +11,7 @@ body {
   width: 100%;
   height: auto;
   background: linear-gradient(315deg, #ff80ffab, #66b3ff);
-
+ overflow-x: hidden;
 }
 
 
@@ -98,10 +98,10 @@ body {
 }
 
 .card .img img {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   background: #e8e8e8;
-  border-radius: 100%;
+  border-radius: 15px;
   margin: auto;
   margin-top: 20px;
   display: flex;
@@ -146,13 +146,7 @@ padding: 5px;
     border-top-left-radius: 50%;
     padding: 20px;
 }
-#dynamic{
-  display: grid;
-  
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    padding: 20px;
-}
+
 }
 
 
