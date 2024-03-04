@@ -11,7 +11,8 @@ body {
   width: 100%;
   height: auto;
   background: linear-gradient(315deg, #ff80ffab, #66b3ff);
-
+  padding-left: 20px;
+  overflow-x: hidden;
 }
 
 

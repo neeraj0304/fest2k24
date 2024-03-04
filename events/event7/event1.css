@@ -12,6 +12,7 @@ body {
   height: auto;
   background: linear-gradient(315deg, #ff80ffab, #66b3ff);
  overflow-x: hidden;
+ padding-left: 20px;
 }
 
 
